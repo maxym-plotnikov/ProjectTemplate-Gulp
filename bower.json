@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": [
+    "Max Plotnikov <plotnikov.odesk@gmail.com>"
+  ],
+  "description": "Template for project",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  },
+  "main": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

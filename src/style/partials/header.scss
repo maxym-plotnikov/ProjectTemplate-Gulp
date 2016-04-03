@@ -1,0 +1,116 @@
+header {
+    text-align: center;
+    background: $brand-success;
+    color: white;
+    .container {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    img {
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .intro-text {
+        .name {
+            display: block;
+            font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 2em;
+        }
+        .skills {
+            font-size: 1.25em;
+            font-weight: 300;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    header {
+        .container {
+            padding-top: 200px;
+            padding-bottom: 100px;
+        }
+        .intro-text {
+            .name {
+                font-size: 4.75em;
+            }
+            .skills {
+                font-size: 1.75em;
+            }
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        .navbar-brand {
+            font-size: 2em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+    }
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+        .navbar-brand {
+            font-size: 1.5em;
+        }
+    }
+}
+
+.navbar {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $brand-primary;
+    color: #fff;
+    a:focus {
+        outline: none;
+    }
+    .navbar-nav {
+        letter-spacing: 1px;
+        li {
+            a:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: none;
+    .navbar-brand,
+    .navbar-nav>li>a {
+        color: $white-color;
+        &:focus,
+        &:hover {
+            color: $white-color;
+        }
+    }
+    .navbar-nav>.active>a {
+        color: $white-color;
+        background-color: $dark-color;
+        &:focus,
+        &:hover {
+            color: $white-color;
+            background-color: $dark-color;
+        }
+    }
+    .navbar-toggle {
+        border: none;
+        &:hover,
+        &:focus {
+            background-color: $dark-color;
+        }
+        .icon-bar {
+            background-color: $white-color;
+            outline: none;
+        }
+    }
+}
