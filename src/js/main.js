@@ -6,7 +6,7 @@
 /*
     Custom
  */
-//= ../../bower_components/filament-sticky/fixedsticky.js
+
 
 
 
