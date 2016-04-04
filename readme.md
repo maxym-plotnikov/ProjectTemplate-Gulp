@@ -6,8 +6,10 @@
 2. cd into the directory and run `npm install`
 3. Run `bower i` for bower components.
 4. Run `gulp` and it will pull in all dependencies and compile.
+5. You can use `gulp clean` to delete `build` folder and start from scratch.
 
 Many thanks for:
 - This tutorial [Приятная сборка frontend проекта](https://habrahabr.ru/post/250569/).
 - This tutorial [Setting up Gulp, Bower, Bootstrap Sass, & FontAwesome](http://ericlbarnes.com/setting-gulp-bower-bootstrap-sass-fontawesome/).
+- fontello service for custom icons.
 
